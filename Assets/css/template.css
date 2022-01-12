@@ -1,0 +1,157 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+
+.container {
+	background: linear-gradient(45deg, #0c566f, #3d877b);
+	color: white;
+}
+.topo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.head {
+	display: flex;
+	flex-direction: row;
+}
+.text {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+}
+.title {
+	font-size: 14px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+.quote {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+.img {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container2 {
+	background: linear-gradient(45deg, #C7CAC9, #C0F6E8);
+}
+.oneliner {
+	font-weight: bold;
+	font-size: 18px;
+	word-spacing: 2px;
+	display: flex;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+.line {
+	width: 95%;
+	height: 3px;
+	background-color: white;
+	margin-left: 30px;
+}
+.container3 {
+	display: flex;
+	flex-direction: row;
+}
+.partA {
+	width: 50%;
+	margin-top: 30px;
+}
+.explanation {
+	margin-left: 30px;
+	margin-right: 50px;
+}
+.explanation ul {
+	margin-left: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.explanation li {
+	padding-top: 5px;
+}
+.partB {
+	width: 50%;
+	margin-top: 30px;
+}
+.f_title {
+	display: flex;
+	justify-content: center;
+	color: grey;
+	word-spacing: 3px;
+	letter-spacing: 2px;
+	padding-bottom: 30px;
+}
+.form_name {
+	color: grey;
+	margin-bottom: 10px;
+}
+.form_name strong {
+	color: red;
+}
+.form {
+	margin-bottom: 30px;
+}
+.form input {
+	height: 30px;
+	width: 250px;
+}
+.form2 input {
+	margin-bottom: 30px;
+	height: 30px;
+	width: 400px;
+}
+.checkbox {
+	display: flex;
+	flex-direction: row;
+}
+.checkbox div {
+	color: grey;
+	margin-left: 20px;
+}
+.submit input {
+	width: 500px;
+	height: 30px;
+	background-color: lightblue;
+	border-radius: 15px;
+	border: 0;
+	color: white;
+	font-weight: bold;
+}
+.submit {
+	margin-top: 30px;
+}
+
+.editor {
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: black;
+	color: white;
+}
+.bar {
+	height: 1px;
+	width: 100%;
+	background-color: red;
+}
